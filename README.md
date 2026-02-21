@@ -1,24 +1,23 @@
-# 🚀 Sifara Tech AI | Professional Background Remover
+# 🤖 Sifara AI | Secure Multimodal Local Intelligence
 
-An advanced web-based application designed for high-precision automatic image background removal. This project leverages the **BiRefNet** (Bilateral Reference Network) architecture, deployed via a **Flask** backend and powered by **PyTorch**.
+**Sifara AI** is a privacy-first, local artificial intelligence assistant designed specifically for professional workflows requiring high levels of data confidentiality. This project integrates **Multimodal** capabilities to analyze various document formats without an internet connection, ensuring data sovereignty remains entirely with the user.
 
-## 🎯 Project Highlights
-Unlike standard background removal tools, this project utilizes the state-of-the-art **BiRefNet** model (by ZhengPeng7), which offers:
-- **Superior Edge Detection**: Handles complex subjects like hair, fur, and transparent objects with extreme precision.
-- **Hardware Acceleration**: Fully optimized for **Apple Silicon (M1/M2/M3)** using **Metal Performance Shaders (MPS)** for lightning-fast processing.
-- **Modern UI/UX**: A clean, elegant, and responsive interface featuring a glassmorphism design.
+## 🌟 Key Features
+- **Privacy-First (Full Offline)**: All data processing is performed locally via **Ollama**. An ideal solution for security-conscious sectors such as banking and finance.
+- **Multimodal Document Analysis**: 
+    - **PDF**: Advanced analysis of legal documents, research reports, and contracts.
+    - **Excel & CSV**: Direct interaction with tabular data for instant summaries and insights.
+- **Streaming Response**: Modern interface featuring real-time response delivery (ChatGPT-style).
+- **Executive Workflow Optimization**: Utilizes the `qwen2.5-coder` model for high-precision technical and managerial problem-solving.
 
 ## 🛠️ Technology Stack
-- **Backend:** Python, Flask
-- **Deep Learning:** PyTorch, TorchVision
-- **AI Model:** `ZhengPeng7/BiRefNet` via Hugging Face Transformers
-- **Image Processing:** PIL (Pillow)
-- **Frontend:** HTML5, CSS3 (Modern UI with Glassmorphism effect)
+- **Engine**: Python 3.x, Flask
+- **LLM Orchestration**: Ollama (Qwen2.5-Coder)
+- **Document Intelligence**: Pandas (Data Analysis), PyPDF2 (PDF Processing)
+- **Frontend**: Tailwind CSS & Highlight.js for clean code and data visualization.
 
-## 📋 System Requirements & Installation
-To run this project locally, ensure you have Python 3.9+ installed.
-
-1. **Clone the repository**:
+## 🚀 Installation & Setup
+1. **Prerequisites**: Ensure [Ollama](https://ollama.com/) is installed on your local machine.
+2. **Model Setup**:
    ```bash
-   git clone [https://github.com/azmi-khalid/ai-background-remover.git](https://github.com/azmi-khalid/ai-background-remover.git)
-   cd ai-background-remover
+   ollama pull qwen2.5-coder:3b
