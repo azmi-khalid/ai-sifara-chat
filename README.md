@@ -21,3 +21,12 @@
 2. **Model Setup**:
    ```bash
    ollama pull qwen2.5-coder:3b
+
+
+---
+
+## 👨‍💻 About the Developer
+Developed by **Azmi Khalid**, a **Vice President** at a state-owned bank with **24 years of experience** in management and leadership. As a **fast learner** and technology visionary, he bridges the gap between traditional banking excellence and the practical implementation of **Artificial Intelligence** and **Data Science**.
+
+---
+💡 *"In banking, security isn't just about vaults; it's about safeguarding data sovereignty. Sifara AI is built on that very foundation."*
